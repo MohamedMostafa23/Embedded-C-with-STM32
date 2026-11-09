@@ -1,5 +1,9 @@
 # ADC-Driver (STM32)
 
+An STM32 analog-to-digital converter exercise that converts a temperature sensor reading and displays it on an LCD. The source illustrates polling and interrupt handling around the ADC.
+
+[Application entry point](src/main.c) · [ADC driver](Drivers/src/adc.c) · [Proteus simulation](ADC_simulation.pdsprj).
+
 ADC driver implementing polling and interupts to read temperature of an LM35 and displaying it on an LM016L LCD.
 
 <hr class="rounded">
